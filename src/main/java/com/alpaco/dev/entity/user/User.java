@@ -10,6 +10,7 @@ import lombok.*;
 @NoArgsConstructor
 public class User extends BaseTimeEntity {
     private long user_id;
+
     @NonNull
     private String username;
     @NonNull
